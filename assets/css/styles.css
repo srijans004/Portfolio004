@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --first-color:#1b1f24;
+    --second-color:#ff722c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  "Kanit", sans-serif;
+}
+header{
+    background-color: #1b1f24;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .logo{
+    color: var(--second-color);
+    letter-spacing: 2px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    margin-right: 20px;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;   
+    font-weight: 400;
+}
+header ul li a:hover{
+    color: var(--second-color);
+}
+
+/* section */
+section.photo-section{
+    background-color: var(--first-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px 120px 0 200px;
+}
+.photo-section_title{
+    font-size: 50px;
+}
+.photo-section_title span{
+    color:var(--second-color);
+}
+.photo-section_desc{
+    color: #bab0b0;
+}
+.icons{
+    margin: 15px 0;
+}
+.icons li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul.icons{
+    list-style: none;
+    display: flex;
+}
+
+.icons li{
+    margin-right: 15px;
+}
+.icons li a>i.bxl-linkedin-square:hover{
+    color:#0072b1;
+}
+.icons li a>i.bxl-github:hover{
+    color:#4078c0;
+}
+.icons li a>i.bxl-instagram:hover{
+    color:#feda75;
+}
+.icons li a>i.bxl-twitter:hover{
+    color:#00acee;
+}
+
+/* Buttons */
+.btn{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color:var(--first-color) ;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 40px var(--second-color);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:var(--second-color);
+    color: #fff;
+}
+
+header button{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color:var(--first-color) ;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+    border-radius: 10px;
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: var(--second-color);
+    color: #1b1f24;
+}
+/* about me section */
+.about-section{
+    background-color: #22282f;
+    color: #fff;
+    /* padding:TopBottom LeftRight */
+    padding: 60px 80px;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.about-section img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 30px #934b28;
+}
+.about-section-desc{
+    margin-left: 100px;
+    max-width: 400px;
+}
+.about-section-desc h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+h4 span{
+    color: var(--second-color);
+}
+.about-section-desc ul > li{
+    list-style: none;
+    margin: 10px 0px;
+    color: grey;
+}
+.about-section-desc li > a{
+    text-decoration: none;
+    color: grey;
+}
+.about-section-desc li > a:hover{
+    color: var(--second-color);
+}
+.bxl-whatsapp{
+    padding-left: 5px;
+}
+.bxl-whatsapp:hover{
+    color: #25D366;
+}
+.about-section-desc li strong{
+    color:#fff;
+}
+/* work section */
+.work-section{
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    
+}
+.work-section-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.work-section-title span{
+    color: var(--second-color);
+}
+.work-section-box{
+    background-color:#22282f ;
+    padding: 50px 30px;
+    max-width: 350px;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 50px;
+    border: 3px solid var(--second-color);
+    
+}
+.work-section-items{
+    display: flex;
+    justify-content: center;
+}
+.work-section-box:hover{
+    background-color: #14171c;
+    box-shadow: 10px 10px 30px var(--second-color);
+}
+.work-section-box p{
+    color: grey;
+    font-size: 15px;
+}
+.work-section-box a{
+    /* text-decoration: none; */
+    color: #bd5f30;
+}
+.work-section-desc{
+    margin-bottom: 10px;
+}
+.work-section-icon i:hover{
+    background-color: var(--second-color);
+}
+
+
