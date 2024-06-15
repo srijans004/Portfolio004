@@ -15,6 +15,9 @@ html{
 body{
     font-family:  "Kanit", sans-serif;
 }
+
+/* header */
+
 header{
     background-color: var(--first-color);
     padding: 20px;
@@ -99,6 +102,7 @@ ul.icons{
     border-radius: 10px;
     margin-right: 10px;
     box-shadow: 10px 10px 40px var(--second-color);
+    margin-top: 10px;
 }
 .btn:hover{
     cursor: pointer;
@@ -129,7 +133,6 @@ header button:hover{
     display: flex; 
     justify-content: center;
     align-items: center;
-    height: 400px;
 }
 .about-section img{
     width: 250px;
@@ -177,7 +180,6 @@ h4 span{
     color: #fff;
     padding: 50px;
     text-align: center;
-    max-height: 500px;
 }
 .work-section-title{
     font-size: 30px;
@@ -260,5 +262,37 @@ footer a{
     text-decoration: none;
     color: var(--second-color);
 }
+/* media query */
+@media only screen and (max-width: 600px) {
+    /* header */
+    header{
+        flex-direction: column;
+    }
+    header > *{
+        margin-bottom: 15px;
+    }
+    /* section */
+    section.photo-section{
+        flex-direction: column;
+        padding: 40px;
+    }
+    section.about-section{
+        flex-direction: column;
+    }
+    /* about section */
+    .about-section-desc{
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    /* work section */
+    .work-section-items{
+        flex-direction: column;
+    }
+    .work-section-box{
+        margin-bottom: 20px;
+        align-items: center;
+    }
+  }
 
 
