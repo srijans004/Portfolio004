@@ -8,11 +8,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  "Kanit", sans-serif;
 } 
-/* body{
+html{
+    scroll-behavior: smooth;
+}
+body{
     font-family:  "Kanit", sans-serif;
-} */
+}
 header{
     background-color: var(--first-color);
     padding: 20px;
@@ -127,6 +129,7 @@ header button:hover{
     display: flex; 
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 .about-section img{
     width: 250px;
@@ -174,7 +177,7 @@ h4 span{
     color: #fff;
     padding: 50px;
     text-align: center;
-    
+    max-height: 500px;
 }
 .work-section-title{
     font-size: 30px;
@@ -221,9 +224,10 @@ h4 span{
 /* contact section */
 .contact-section{
     background-color: #22282f;
-    padding: 10px;
+    padding: 60px 10px 10px 10px;
     color: #fff;
-    text-align: center;
+    text-align: center; 
+    height: 400px;
 }
 .contact-section h4{
     font-size: 30px;
