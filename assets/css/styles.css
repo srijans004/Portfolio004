@@ -174,22 +174,22 @@ h4 span{
 .about-section-desc li strong{
     color:#fff;
 }
-/* work section */
-.work-section{
+/* projects section */
+.projects-section{
     background-color: var(--first-color);
     color: #fff;
     padding: 50px;
     text-align: center;
 }
-.work-section-title{
+.projects-section-title{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 40px;
 }
-.work-section-title span{
+.projects-section-title span{
     color: var(--second-color);
 }
-.work-section-box{
+.projects-section-box{
     background-color:#22282f ;
     padding: 50px 30px;
     max-width: 350px;
@@ -200,26 +200,26 @@ h4 span{
     border: 3px solid var(--second-color);
     
 }
-.work-section-items{
+.projects-section-items{
     display: flex;
     justify-content: center;
 }
-.work-section-box:hover{
+.projects-section-box:hover{
     background-color: #14171c;
     box-shadow: 10px 10px 30px var(--second-color);
 }
-.work-section-box p{
+.projects-section-box p{
     color: grey;
     font-size: 15px;
 }
-.work-section-box a{
+.projects-section-box a{
     /* text-decoration: none; */
     color: #bd5f30;
 }
-.work-section-desc{
+.projects-section-desc{
     margin-bottom: 10px;
 }
-.work-section-icon i:hover{
+.projects-section-icon i:hover{
     background-color: var(--second-color);
 }
 
@@ -285,11 +285,11 @@ footer a{
         margin-top: 20px;
         margin-bottom: 10px;
     }
-    /* work section */
-    .work-section-items{
+    /* projects section */
+    .projects-section-items{
         flex-direction: column;
     }
-    .work-section-box{
+    .projects-section-box{
         margin-bottom: 20px;
         align-items: center;
     }
