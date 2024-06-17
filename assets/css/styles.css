@@ -262,7 +262,9 @@ footer a{
     text-decoration: none;
     color: var(--second-color);
 }
+
 /* media query */
+
 @media only screen and (max-width: 600px) {
     /* header */
     header{
@@ -275,6 +277,9 @@ footer a{
     section.photo-section{
         flex-direction: column;
         padding: 40px;
+    }
+    section.photo-section img{
+        display: none;
     }
     section.about-section{
         flex-direction: column;
